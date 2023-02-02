@@ -5,7 +5,7 @@ spring:
 management:
   endpoints:
     web:
-      base-path: new-api/welcome/actuator
+      base-path: /actuator
       exposure:
         include: [ "health","prometheus", "metrics" ]
   endpoint:
